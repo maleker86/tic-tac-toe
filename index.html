@@ -4,32 +4,47 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>tic tac toe</title>
+  <!-- stylesheet linkup -->
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <h2>tic tac toe</h2>
-    <section>
-      <button id="x">hi</button> 
-      <button id="o">there</button>
-    </section>
+    <h1>tic tac toe</h1>
   </header>
-  
+  <main>
+    <p id="game-status">
+      
+    </p>
+    <section id="gameboard">
 
-  <div id="gameboard">
-    
-  </div>
-  
+    </section>
+    <section id="player-controls">
+      <p id="player-message">Please provide Player Names & Press Start.</p>
+      <input type="text" id="player1" placeholder="player 1 name">
+      <input type="text" id="player2" placeholder="player 2 name">
+      <div id="button-holder">
+        <button id="start">Start</button>
+        <button id="restart">Restart</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <small>kriscodes yo | <a href="notes.html">humorous production notes</a></small>
+  </footer>
   <script src="script.js" defer></script>
 
   <!--
   This script places a badge on your repl's full-browser view back to your repl's cover
   page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
   teal, blue, blurple, magenta, pink!
-  -->
   <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+  -->
 </body>
 
 </html>
