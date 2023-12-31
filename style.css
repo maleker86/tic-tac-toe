@@ -1,109 +1,108 @@
 * {
-    padding: 0;
-    margin: 0;
-  }
-  
-  body {
-    cursor: pointer;
-    display: grid;
-    grid: auto 3fr auto / 1fr;
-    height: 100vh;
-    text-align: center;
-    color: black;
-    background-color: #E6F7FF;
-    /* justify-content: center;
-    align-items: space-around; */
-  }
-  
-  body * {
-    /* border: 1px solid black; */
-    padding: 5px;
-    font-family: 'Handjet', cursive;
-  }
-  
-  button, input[type=text] {
-    font-size: 16px;
-    border: none;
-  }
-  
-  ::placeholder {
-    color: #333333;  
-  }
-  
-  h1 {  
-    color: #FFA500;
-    font-size: 42px;
-    text-shadow: 5px 5px 5px #333333;
-  }
-  
-  p {
-    font-size: 16px;
-  }
-  
-  small {
-    font-size: 12px;
-  }
-  
-  header {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  main {
-    display: grid;
-    grid: auto 3fr auto / 1fr;
-    /* justify-content: center;
-    align-items: center; */
-  }
-  
-  /* #game-status {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-  } */
-  
-  #gameboard {
-    display:grid;
-    grid: repeat(3, 15vh) / repeat(3, 15vh);
-    margin: auto;
-    border: dotted 1px solid black;
-    border-radius: 5px;
-    /* background-color: #9EADC8; */
-    /* margin: 0 20vw;*/
-  }
-  
-  #gameboard div {
-    display: grid;
-    align-items: center;
-    font-size: 2rem;
-    border: 1px dotted black;
-    border-radius: 30px;
-    background-color:#00FF00;
-    /* color: white; */
-    box-shadow: 5px 5px 5px #333333;
-  }
-  
-  /* #player-controls {
-    display: grid;
-    align-items: center;
-  } */
-  
-  #player1, #player2 {
-    text-align: center;
-    box-shadow: 5px 5px 5px #333333;
-    background-color: #FF9CCE;
-    border: none;
-  }
-  
-  button {
-    background-color: #ff69b4;
-    box-shadow: 5px 5px 5px #333333;
-  }
-  
-  footer {
-    color: #800800;
-    display: flex;
-    /* display: grid; */
-    justify-content: center;
-  }
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  cursor: pointer;
+  display: grid;
+  grid: auto 3fr auto / 1fr;
+  height: 100vh;
+  text-align: center;
+  color: black;
+  background-color: #E6F7FF;
+  /* justify-content: center;
+  align-items: space-around; */
+}
+
+body * {
+  /* border: 1px solid black; */
+  padding: 5px;
+  font-family: 'Handjet', cursive;
+}
+
+button, input[type=text] {
+  font-size: 16px;
+  border: none;
+}
+
+::placeholder {
+  color: #333333;  
+}
+
+h1 {  
+  color: #FFA500;
+  font-size: 42px;
+  text-shadow: 5px 5px 5px #333333;
+}
+
+p {
+  font-size: 16px;
+}
+
+small {
+  font-size: 12px;
+}
+
+header {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: grid;
+  grid: auto 3fr auto / 1fr;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+#game-status {
+  /* display: grid;
+  align-items: center;
+  justify-content: center; */
+}
+
+#gameboard {
+  display:grid;
+  grid: repeat(3, 15vh) / repeat(3, 15vh);
+  margin: auto;
+  border: dotted 1px solid black;
+  border-radius: 5px;
+  /* background-color: #9EADC8; */
+  /* margin: 0 20vw;*/
+}
+
+#gameboard div {
+  display: grid;
+  align-items: center;
+  font-size: 2rem;
+  border: 1px dotted black;
+  border-radius: 30px;
+  background-color:#00FF00;
+  /* color: white; */
+  box-shadow: 5px 5px 5px #333333;
+}
+
+#player-controls {
+  /* display: grid;
+  align-items: center; */
+}
+
+#player1, #player2 {
+  box-shadow: 5px 5px 5px #333333;
+  background-color: #FF9CCE;
+  border: none;
+}
+
+button {
+  background-color: #ff69b4;
+  box-shadow: 5px 5px 5px #333333;
+}
+
+footer {
+  color: #800800;
+  display: flex;
+  /* display: grid; */
+  justify-content: center;
+}
