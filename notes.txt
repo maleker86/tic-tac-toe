@@ -1,0 +1,2 @@
+i 100 need to make the eventListener on every box NOT where it is
+because it is making the playerSelector go in playerSelector and i cannot make it un go uhkhdlhdldd EUHHUHUHHFFHH 

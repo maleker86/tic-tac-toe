@@ -1,39 +1,63 @@
-html {
-    height: 100%;
-    width: 100%;
-  }
-  
-  * {
+* {
     padding: 0;
     margin: 0;
   }
   
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    display: grid;
+    grid: 1fr 3fr 1fr .5fr / 1fr;
+    height: 100vh;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
   header {
-    display:flex;
-    flex-direction:column;
-    height: 20vh;
-    gap: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   
-  button {
-    min-width: 20px;
-  }
-  
-  #gameboard {
-    display: grid;
-    height: calc(80vh - 20px);
-    grid: repeat(3, 1fr) / repeat(3, 1fr);
-    justify-content: space-around;
-    align-items: space-around;
-    padding: 10px;
-  }
-  
-  #gameboard > div {
+  footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 1px black;
   }
   
+  #board {
+    height: calc(70vh - 20px);
+    /* padding: 10px; */
+    display: grid;
+    grid: repeat(3, 1fr) / repeat(3, 1fr);
+    margin: 0 20vw;
+    max-height: 50vw;
+  }
+  
+  #board div {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }
+  
+  #bottom-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    gap: 5px;
+  }
+  
+  #controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
