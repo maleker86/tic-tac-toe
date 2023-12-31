@@ -57,11 +57,11 @@
     align-items: center; */
   }
   
-  #game-status {
-    /* display: grid;
+  /* #game-status {
+    display: grid;
     align-items: center;
-    justify-content: center; */
-  }
+    justify-content: center;
+  } */
   
   #gameboard {
     display:grid;
@@ -84,10 +84,10 @@
     box-shadow: 5px 5px 5px #333333;
   }
   
-  #player-controls {
-    /* display: grid;
-    align-items: center; */
-  }
+  /* #player-controls {
+    display: grid;
+    align-items: center;
+  } */
   
   #player1, #player2 {
     text-align: center;
