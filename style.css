@@ -1,0 +1,39 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  header {
+    display:flex;
+    flex-direction:column;
+    height: 20vh;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    min-width: 20px;
+  }
+  
+  #gameboard {
+    display: grid;
+    height: calc(80vh - 20px);
+    grid: repeat(3, 1fr) / repeat(3, 1fr);
+    justify-content: space-around;
+    align-items: space-around;
+    padding: 10px;
+  }
+  
+  #gameboard > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+  }
+  
