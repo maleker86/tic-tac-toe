@@ -1,3 +1,12 @@
+:root {
+    --body_text: black;
+    --body_bg: #E6F7FF;
+    --placeholder: #333333;
+    --text_shadow: 5px 5px 5px var(--placeholder);
+  }
+  
+  body { background-color: var(--body_text); }
+
 * {
   padding: 0;
   margin: 0;
@@ -9,8 +18,8 @@ body {
   grid: auto 3fr auto / 1fr;
   height: 100vh;
   text-align: center;
-  color: black;
-  background-color: #E6F7FF;
+  color: var(--body_text);
+  background-color: var(--body_bg);
   /* justify-content: center;
   align-items: space-around; */
 }
@@ -27,13 +36,13 @@ button, input[type=text] {
 }
 
 ::placeholder {
-  color: #333333;  
+  color: var(--placeholder);  
 }
 
 h1 {  
   color: #FFA500;
   font-size: 42px;
-  text-shadow: 5px 5px 5px #333333;
+  text-shadow: var(--text_shadow);
 }
 
 p {
@@ -57,11 +66,11 @@ main {
   align-items: center; */
 }
 
-#game-status {
-  /* display: grid;
+/* #game-status {
+  display: grid;
   align-items: center;
-  justify-content: center; */
-}
+  justify-content: center;
+} */
 
 #gameboard {
   display:grid;
@@ -84,12 +93,13 @@ main {
   box-shadow: 5px 5px 5px #333333;
 }
 
-#player-controls {
-  /* display: grid;
-  align-items: center; */
-}
+/* #player-controls {
+  display: grid;
+  align-items: center;
+} */
 
 #player1, #player2 {
+    text-align: center;
   box-shadow: 5px 5px 5px #333333;
   background-color: #FF9CCE;
   border: none;
